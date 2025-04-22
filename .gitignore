@@ -1,0 +1,14 @@
+# Ignore system and config files
+.vscode/
+node_modules/
+.env
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Ignore all hidden folders from your system accidentally pulled in
+/Users/
+/AppData/
+/Desktop/
+/Documents/
