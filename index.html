@@ -11,19 +11,19 @@
     <nav class="navbar">
       <div class="logo">
         <img src="Logo.png" alt="PeerMentor Hub Logo" />
-        PeerMentor Hub
+        <span>PeerMentor Hub</span>
       </div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#signup">Sign Up</a></li>
       </ul>
-      <input type="text" placeholder="Search..." class="search-box" />
+      <input type="text" placeholder="Search..." class="search-box">
     </nav>
 
     <section class="hero" id="home">
-      <h2>Welcome to PeerMentor Hub</h2>
-      <p>Sign up with our easy step process.</p>
+      <h2>Welcome to <span class="highlight">PeerMentor Hub</span></h2>
+      <p>Your go-to space for student-to-student support.</p>
       <a href="#signup" class="btn">SIGN UP</a>
     </section>
 
@@ -32,17 +32,16 @@
 
   <section class="about" id="about">
     <h2>About Us</h2>
-    <p><strong>PeerMentor Hub</strong> is a student-to-student mentoring and tutoring platform created to empower university learners.</p>
-    <p>We connect students from foundation and bachelor’s degree levels for academic growth and community-building.</p>
-    <p>Level 5+ students can offer guidance or earn money up to £50/hour — or volunteer to build their CV.</p>
-    <p>Mentor profiles show units completed, price, skills and contact details.</p>
-    <blockquote>“I was struggling with my first year — until I found PeerMentor Hub. Now, not only am I passing with confidence, but I’m also helping others.”</blockquote>
-    <p>Let’s make academic life easier — together.</p>
+    <p><strong>PeerMentor Hub</strong> is a student-to-student mentoring and tutoring platform. It connects foundation and bachelor’s degree students for academic support and community-building.</p>
+    <p>We match level 4 students with experienced level 5+ students for effective guidance. Mentors can offer their time for free (to build their CV) or charge up to £50/hour.</p>
+    <p>Mentor profiles highlight their completed units, skills, pricing, and contact info so mentees can choose the right match.</p>
+    <p>This platform isn’t just tutoring — it’s a growing <strong>community</strong> built on support and shared success.</p>
+    <blockquote>“I was struggling with my first year — until I found PeerMentor Hub. Now, I’m not only succeeding but also helping others.”</blockquote>
+    <p><em>Let’s make academic life easier — together.</em></p>
   </section>
 
   <section class="signup" id="signup">
     <h2>Sign Up</h2>
-    <p>Join the PeerMentor Hub community today!</p>
     <form>
       <label for="fullname">Full Name:</label>
       <input type="text" id="fullname" name="fullname" required />
@@ -56,17 +55,19 @@
         <option value="mentee">Mentee</option>
       </select>
 
-      <label for="subject">Subject / Unit Support Needed or Offered:</label>
+      <label for="subject">Subject Area:</label>
       <input type="text" id="subject" name="subject" required />
 
-      <label for="price">Hourly Rate (£0 if free):</label>
+      <label for="price">Hourly Rate (£):</label>
       <input type="number" id="price" name="price" min="0" max="50" required />
 
-      <label for="message">Brief Introduction / Message:</label>
+      <label for="message">Brief Intro:</label>
       <textarea id="message" name="message" rows="4"></textarea>
 
       <button type="submit">Submit</button>
     </form>
   </section>
+
+  <a href="#home" class="back-to-top">↑ Back to Top</a>
 </body>
 </html>
