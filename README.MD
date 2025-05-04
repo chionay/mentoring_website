@@ -80,6 +80,8 @@ HTML Validation** using [W3C Markup Validator](https://validator.w3.org/)
 CSS Validation** using [W3C CSS Validator](https://jigsaw.w3.org/css-validator
 Lighthouse Test** in Chrome DevTools used to check accessibility and performance
 
+![Lighthouse Audit](screenshots/lighthouse.png)
+
 
 
 
