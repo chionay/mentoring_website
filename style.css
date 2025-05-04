@@ -104,8 +104,8 @@ body {
   margin: 20px auto;
   color: #fff;
   background-color: #347d94;
-  display: inline-block;     /* makes the width fit content */
-  max-width: 90%;            /* optional, keeps it from getting too wide */
+  display: inline-block;     
+  max-width: 90%;            
   text-align: left;
 }
 
