@@ -1,3 +1,6 @@
+*link to deployed live website*  https://chionay.github.io/mentoring_website/
+*link to repo* https://github.com/chionay/mentoring_website
+
 Peer Mentor Hub
 
 Peer Mentor Hub is a responsive tutoring/mentoring website built for university students from various study pathways. It connects foundation-level students with more experienced peers who can support their academic journey either voluntarily or for a small fee. This creates free and affordable support, income and a community.
